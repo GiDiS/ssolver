@@ -1,0 +1,4 @@
+[Project]
+Name=sudoku-solver
+Manager=KDevCMakeManager
+VersionControl=

@@ -1,0 +1,36 @@
+[Buildset]
+BuildItems=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x01\x00\x00\x00\x1a\x00s\x00u\x00d\x00o\x00k\x00u\x00-\x00s\x00o\x00l\x00v\x00e\x00r)
+
+[CMake]
+BuildDirs=/home/v/projects/sudoku-solver/build
+CMakeDir=/usr/share/cmake/Modules
+Current CMake Binary=file:///usr/bin/cmake
+CurrentBuildDir=file:///home/v/projects/sudoku-solver/build
+CurrentBuildType=Debug
+CurrentInstallDir=
+Extra Arguments=
+ProjectRootRelative=./
+
+[Launch]
+Launch Configurations=Launch Configuration 1
+
+[Launch][Launch Configuration 1]
+Configured Launch Modes=execute
+Configured Launchers=nativeAppLauncher
+Name=sudoku-solver
+Type=Native Application
+
+[Launch][Launch Configuration 1][Data]
+Arguments=
+Dependencies=@Variant(\x00\x00\x00\t\x00\x00\x00\x00\x01\x00\x00\x00\x0b\x00\x00\x00\x00\x02\x00\x00\x00\x1a\x00s\x00u\x00d\x00o\x00k\x00u\x00-\x00s\x00o\x00l\x00v\x00e\x00r\x00\x00\x00\x1a\x00s\x00u\x00d\x00o\x00k\x00u\x00-\x00s\x00o\x00l\x00v\x00e\x00r)
+Dependency Action=Build
+EnvironmentGroup=default
+Executable=
+External Terminal=konsole --noclose --workdir %workdir -e %exe
+Project Target=sudoku-solver,sudoku-solver
+Use External Terminal=false
+Working Directory=
+isExecutable=false
+
+[Project]
+VersionControlSupport=kdevgit
